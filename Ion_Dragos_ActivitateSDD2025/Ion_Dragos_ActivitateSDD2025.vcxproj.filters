@@ -21,12 +21,18 @@
     <ClCompile Include="1Martie.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="22Martie.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="factura.txt">
       <Filter>Source Files</Filter>
     </Text>
     <Text Include="clienti.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="masini.txt">
       <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>
