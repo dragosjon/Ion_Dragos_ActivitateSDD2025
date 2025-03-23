@@ -1,0 +1,10 @@
+1 Destiantie1 2024 5 
+2 Destiantie2 2023 3
+3 Destiantie3 2011 4 
+4 Proiect4 Beneficiar4 6 
+5 Proiect5 Beneficiar5 2 3000.0
+6 Proiect6 Beneficiar6 5 3500.0
+7 Proiect7 Beneficiar7 3 4000.0
+8 Proiect8 Beneficiar8 4 4500.0
+9 Proiect9 Beneficiar9 6 5000.0
+10 Proiect10 Beneficiar10 2 5500.0

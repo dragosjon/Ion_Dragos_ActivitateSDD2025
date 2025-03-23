@@ -19,10 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1Martie.c">
+    <ClCompile Include="1Martie%28listaSimplaInlantuita%29.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="22Martie.c" />
+    <ClCompile Include="22Martie.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="cursaAeriana(ListaDubla).c" />
     <ClCompile Include="factura.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -31,6 +34,7 @@
     <Text Include="clienti.txt" />
     <Text Include="factura.txt" />
     <Text Include="masini.txt" />
+    <Text Include="txtCursaAeriana.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

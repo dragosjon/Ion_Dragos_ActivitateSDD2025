@@ -18,10 +18,13 @@
     <ClCompile Include="factura.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="1Martie.c">
+    <ClCompile Include="1Martie%28listaSimplaInlantuita%29.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="22Martie.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cursaAeriana(ListaDubla).c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -33,6 +36,9 @@
       <Filter>Source Files</Filter>
     </Text>
     <Text Include="masini.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="txtCursaAeriana.txt">
       <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>
