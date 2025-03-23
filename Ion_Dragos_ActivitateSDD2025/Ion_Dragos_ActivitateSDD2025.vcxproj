@@ -40,7 +40,7 @@
     <ClCompile Include="Proiect%28listaDubla%29.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Voucher.c" />
+    <ClCompile Include="Voucher%28listaDubla%29.c" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="clienti.txt" />
@@ -48,6 +48,7 @@
     <Text Include="masini.txt" />
     <Text Include="proiect.txt" />
     <Text Include="txtCursaAeriana.txt" />
+    <Text Include="voucher.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

@@ -36,7 +36,7 @@
     <ClCompile Include="ec.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Voucher.c">
+    <ClCompile Include="Voucher%28listaDubla%29.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -54,6 +54,9 @@
       <Filter>Source Files</Filter>
     </Text>
     <Text Include="proiect.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="voucher.txt">
       <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>
