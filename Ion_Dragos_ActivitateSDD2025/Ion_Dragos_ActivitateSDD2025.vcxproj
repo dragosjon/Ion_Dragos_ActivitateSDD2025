@@ -37,7 +37,10 @@
     <ClCompile Include="factura.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Proiect%28listaDubla%29.c" />
+    <ClCompile Include="Proiect%28listaDubla%29.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Voucher.c" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="clienti.txt" />

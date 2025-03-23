@@ -36,6 +36,9 @@
     <ClCompile Include="ec.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Voucher.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="factura.txt">
