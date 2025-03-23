@@ -27,6 +27,15 @@
     <ClCompile Include="cursaAeriana(ListaDubla).c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Proiect%28listaDubla%29.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\SDD2025\Recapitulare structuri(Teodor)\Recapitulare_Structuri\ListaDubla.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="factura.txt">
@@ -39,6 +48,9 @@
       <Filter>Source Files</Filter>
     </Text>
     <Text Include="txtCursaAeriana.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="proiect.txt">
       <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>

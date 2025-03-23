@@ -1,0 +1,5 @@
+1 Benzinarie Romilva 1 5.0
+2 Bloc GeorgeSRL 4000 100000
+3 Masina BMW 5 5000
+4 Casa Ion 2 20000
+5 Scara TinicheaPFA 2 100
