@@ -36,7 +36,10 @@
     <ClCompile Include="ec.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Voucher%28listaDubla%29.c">
+    <ClCompile Include="Voucher%28listaDubla%29- deMine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\SDD INVATARE\Subiecte 2023\Voucher%28lista dubla%29\Voucher%28listaDubla%29 - exemplu.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
