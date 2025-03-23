@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\NewFilter1">
+      <UniqueIdentifier>{0d7a87d2-b1b9-48b1-a68e-54c8d78b98ab}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="factura.c">
@@ -39,28 +42,34 @@
     <ClCompile Include="Voucher%28listaDubla%29- deMine.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\..\SDD2025\Recapitulare structuri(Teodor)\Recapitulare_Structuri\ListaSimpla.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\SDD2025\Recapitulare structuri(Teodor)\Recapitulare_Structuri\ListaListe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\..\..\..\SDD INVATARE\Subiecte 2023\Voucher%28lista dubla%29\Voucher%28listaDubla%29 - exemplu.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="factura.txt">
-      <Filter>Source Files</Filter>
-    </Text>
     <Text Include="clienti.txt">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\NewFilter1</Filter>
+    </Text>
+    <Text Include="factura.txt">
+      <Filter>Source Files\NewFilter1</Filter>
     </Text>
     <Text Include="masini.txt">
-      <Filter>Source Files</Filter>
-    </Text>
-    <Text Include="txtCursaAeriana.txt">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\NewFilter1</Filter>
     </Text>
     <Text Include="proiect.txt">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\NewFilter1</Filter>
+    </Text>
+    <Text Include="txtCursaAeriana.txt">
+      <Filter>Source Files\NewFilter1</Filter>
     </Text>
     <Text Include="voucher.txt">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\NewFilter1</Filter>
     </Text>
   </ItemGroup>
 </Project>
