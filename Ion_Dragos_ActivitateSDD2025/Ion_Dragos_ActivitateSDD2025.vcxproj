@@ -22,6 +22,9 @@
     <ClCompile Include="..\..\..\..\..\SDD INVATARE\Subiecte 2023\Voucher%28lista dubla%29\Voucher%28listaDubla%29 - exemplu.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\..\SDD(pt EXAM)\Liste\AgentiiBancare_LIstaSimpla+ListadeListe.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\..\..\..\..\SDD2025\Recapitulare structuri(Teodor)\Recapitulare_Structuri\ListaDubla.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -37,13 +40,14 @@
     <ClCompile Include="22Martie.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Comanda%28listaDubla%29.c" />
     <ClCompile Include="cursaAeriana(ListaDubla).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="ec.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="factura.c">
+    <ClCompile Include="factura%28listaDubla + vector%29.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Proiect%28listaDubla%29.c">
