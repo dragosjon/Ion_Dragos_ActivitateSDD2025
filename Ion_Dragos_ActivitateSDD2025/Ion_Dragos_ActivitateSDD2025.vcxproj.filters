@@ -16,52 +16,55 @@
     <Filter Include="Source Files\txt">
       <UniqueIdentifier>{0d7a87d2-b1b9-48b1-a68e-54c8d78b98ab}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\ListaDubla">
+    <Filter Include="Source Files\1.0. ListaDubla">
       <UniqueIdentifier>{0185b718-0bc9-4a88-b28e-ca8f4fbdfc5f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\sablonListaDubla">
+    <Filter Include="Source Files\1.1 sablonListaDubla">
       <UniqueIdentifier>{57ccfe80-82a4-4fad-85ef-59476e032e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sablon ListaSimpla + ListaDeListe">
+      <UniqueIdentifier>{9c7846f2-f1d6-46a5-8026-d180f05dda41}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1Martie%28listaSimplaInlantuita%29.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="22Martie.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ec.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\SDD2025\Recapitulare structuri(Teodor)\Recapitulare_Structuri\ListaSimpla.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\SDD2025\Recapitulare structuri(Teodor)\Recapitulare_Structuri\ListaListe.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\SDD(pt EXAM)\Liste\AgentiiBancare_LIstaSimpla+ListadeListe.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Comanda%28listaDubla%29.c">
-      <Filter>Source Files\ListaDubla</Filter>
+      <Filter>Source Files\1.0. ListaDubla</Filter>
     </ClCompile>
     <ClCompile Include="cursaAeriana(ListaDubla).c">
-      <Filter>Source Files\ListaDubla</Filter>
+      <Filter>Source Files\1.0. ListaDubla</Filter>
     </ClCompile>
     <ClCompile Include="factura%28listaDubla + vector%29.c">
-      <Filter>Source Files\ListaDubla</Filter>
+      <Filter>Source Files\1.0. ListaDubla</Filter>
     </ClCompile>
-    <ClCompile Include="Proiect%28listaDubla%29.c">
-      <Filter>Source Files\ListaDubla</Filter>
+    <ClCompile Include="Proiect%28listaDubla%29 - eu.c">
+      <Filter>Source Files\1.0. ListaDubla</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\..\SDD INVATARE\Subiecte 2023\Voucher%28lista dubla%29\Voucher%28listaDubla%29 - exemplu.c">
-      <Filter>Source Files\ListaDubla</Filter>
+      <Filter>Source Files\1.0. ListaDubla</Filter>
     </ClCompile>
     <ClCompile Include="Voucher%28listaDubla%29- deMine.c">
-      <Filter>Source Files\ListaDubla</Filter>
+      <Filter>Source Files\1.0. ListaDubla</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\..\SDD2025\Recapitulare structuri(Teodor)\Recapitulare_Structuri\ListaDubla.c">
-      <Filter>Source Files\sablonListaDubla</Filter>
+      <Filter>Source Files\1.1 sablonListaDubla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\SDD2025\Recapitulare structuri(Teodor)\Recapitulare_Structuri\ListaSimpla.c">
+      <Filter>Source Files\sablon ListaSimpla + ListaDeListe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\SDD2025\Recapitulare structuri(Teodor)\Recapitulare_Structuri\ListaListe.c">
+      <Filter>Source Files\sablon ListaSimpla + ListaDeListe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\SDD(pt EXAM)\Liste\AgentiiBancare_LIstaSimpla+ListadeListe.c">
+      <Filter>Source Files\sablon ListaSimpla + ListaDeListe</Filter>
+    </ClCompile>
+    <ClCompile Include="1Martie%28listaSimplaInlantuita%29.c">
+      <Filter>Source Files\sablon ListaSimpla + ListaDeListe</Filter>
+    </ClCompile>
+    <ClCompile Include="ec.c">
+      <Filter>Source Files\1.0. ListaDubla</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
