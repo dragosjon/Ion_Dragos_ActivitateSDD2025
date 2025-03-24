@@ -61,9 +61,47 @@ Comanda citireComanda(FILE* file) {
 	p.numeClient = (char*)malloc((strlen(buffer) + 1) * sizeof(char));
 	strcpy(p.numeClient, buffer);
 
-	fscanf(file, "%hhu", p.numarProduse);
+	fscanf(file, "%hhu", &p.numarProduse);
 
-	fscanf(file, "%f", p.sumaDePlata);
+	fscanf(file, "%f", &p.sumaDePlata);
 
 	return p;
 }
+
+void traversareNod(nodLS* cap) {
+	nodLS* temp = cap;
+	while (temp) {
+		printf("Comanda = %u, StatusComanda = %d, NumeClient = %d, NumarProduse = %hhu, SumaDePlata = %f",
+			temp->inf.idComanda, temp->inf.statusComanda, temp->inf.numeClient, temp->inf.numarProduse, temp->inf.sumaDePlata);
+		printf("\n");
+		temp = temp->next;
+	}
+}
+
+void stergereNod(nodLS** cap, nodLS** ultim, nodLS* sters) {
+	if (*cap == sters) {
+		*cap = sters->next;
+		if (*cap != NULL) {
+			(*cap)->prev = NULL;
+		}
+	}
+
+	else if (*ultim == sters) {
+		*ultim = sters->prev;
+		if (*ultim != NULL) {
+			(*ultim)->next = NULL;
+		}
+	}
+
+	else {
+		nodLS* urmator = sters->next;
+		nodLS* anterior = sters->prev;
+		urmator->prev = anterior;
+		anterior->next = urmator;
+	}
+
+	free(sters->inf.statusComanda);
+	free(sters->inf.numeClient);
+	free(sters);
+}
+

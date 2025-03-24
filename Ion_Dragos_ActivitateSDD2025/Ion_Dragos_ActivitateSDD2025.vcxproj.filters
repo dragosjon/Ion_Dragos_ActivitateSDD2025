@@ -63,7 +63,7 @@
     <ClCompile Include="1Martie%28listaSimplaInlantuita%29.c">
       <Filter>Source Files\sablon ListaSimpla + ListaDeListe</Filter>
     </ClCompile>
-    <ClCompile Include="ec.c">
+    <ClCompile Include="Proiect%28listaDubla%29.c">
       <Filter>Source Files\1.0. ListaDubla</Filter>
     </ClCompile>
   </ItemGroup>
