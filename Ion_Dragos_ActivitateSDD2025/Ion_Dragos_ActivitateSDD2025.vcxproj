@@ -40,7 +40,7 @@
     <ClCompile Include="22Martie.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Comanda%28listaDubla%29.c" />
+    <ClCompile Include="Comanda%28listaDubla%29 - foarteBunExemplu.c" />
     <ClCompile Include="cursaAeriana(ListaDubla).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="clienti.txt" />
+    <Text Include="comanda.txt" />
     <Text Include="factura.txt" />
     <Text Include="masini.txt" />
     <Text Include="proiect.txt" />

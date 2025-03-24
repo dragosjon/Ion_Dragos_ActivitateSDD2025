@@ -17,6 +17,8 @@ typedef struct {
 	struct nodLS* prev;
 }nodLS;
 
+
+
 void inserareNod(nodLS** cap, nodLS** ultim, Comanda c) {
 	nodLS* nou = (nodLS*)malloc(sizeof(nodLS));
 
@@ -53,11 +55,11 @@ Comanda citireComanda(FILE* file) {
 
 	fscanf(file, "%u", &p.idComanda);
 
-	fscanf(file, "%d", buffer);
+	fscanf(file, "%s", buffer);
 	p.statusComanda = (char*)malloc((strlen(buffer) + 1) * sizeof(char));
 	strcpy(p.statusComanda, buffer);
 
-	fscanf(file, "%d", buffer);
+	fscanf(file, "%s", buffer);
 	p.numeClient = (char*)malloc((strlen(buffer) + 1) * sizeof(char));
 	strcpy(p.numeClient, buffer);
 
@@ -71,37 +73,53 @@ Comanda citireComanda(FILE* file) {
 void traversareNod(nodLS* cap) {
 	nodLS* temp = cap;
 	while (temp) {
-		printf("Comanda = %u, StatusComanda = %d, NumeClient = %d, NumarProduse = %hhu, SumaDePlata = %f",
+		printf("Comanda = %u, StatusComanda = %s, NumeClient = %s, NumarProduse = %hhu, SumaDePlata = %f",
 			temp->inf.idComanda, temp->inf.statusComanda, temp->inf.numeClient, temp->inf.numarProduse, temp->inf.sumaDePlata);
 		printf("\n");
 		temp = temp->next;
 	}
 }
 
-void stergereNod(nodLS** cap, nodLS** ultim, nodLS* sters) {
-	if (*cap == sters) {
-		*cap = sters->next;
-		if (*cap != NULL) {
-			(*cap)->prev = NULL;
-		}
-	}
 
-	else if (*ultim == sters) {
-		*ultim = sters->prev;
-		if (*ultim != NULL) {
-			(*ultim)->next = NULL;
-		}
+void traversareInversa(nodLS* ultim) {
+	nodLS* temp = ultim;
+	while (temp) {
+		printf("Comanda = %u, StatusComanda = %s, NumeClient = %s, NumarProduse = %hhu, SumaDePlata = %f",
+			temp->inf.idComanda, temp->inf.statusComanda, temp->inf.numeClient, temp->inf.numarProduse, temp->inf.sumaDePlata);
+		printf("\n");
+		temp = temp->prev;
 	}
-
-	else {
-		nodLS* urmator = sters->next;
-		nodLS* anterior = sters->prev;
-		urmator->prev = anterior;
-		anterior->next = urmator;
-	}
-
-	free(sters->inf.statusComanda);
-	free(sters->inf.numeClient);
-	free(sters);
 }
 
+void dezalocareLista(nodLS* cap) {
+	nodLS* temp = cap;
+	while (temp != NULL) {
+		nodLS* aux = temp->next;
+		free(temp->inf.statusComanda);
+		free(temp->inf.numeClient);
+		free(temp);
+		temp = aux;
+	}
+}
+
+void main() {
+	int n = 5;
+	nodLS* cap = NULL, * ultim = NULL;
+	FILE* file = fopen("comanda.txt", "r");
+
+	Comanda c;
+	for (int i = 0; i < n; i++) {
+		c = citireComanda(file);
+		inserareNod(&cap, &ultim, c);
+		free(c.statusComanda);
+		free(c.numeClient);
+	}
+
+	traversareNod(cap);
+	printf("\n");
+	traversareInversa(ultim);
+	printf("\n");
+
+	dezalocareLista(cap);
+	fclose(file);
+}

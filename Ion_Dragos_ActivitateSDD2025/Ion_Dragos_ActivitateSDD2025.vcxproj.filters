@@ -30,7 +30,7 @@
     <ClCompile Include="22Martie.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Comanda%28listaDubla%29.c">
+    <ClCompile Include="Comanda%28listaDubla%29 - foarteBunExemplu.c">
       <Filter>Source Files\1.0. ListaDubla</Filter>
     </ClCompile>
     <ClCompile Include="cursaAeriana(ListaDubla).c">
@@ -84,6 +84,9 @@
       <Filter>Source Files\txt</Filter>
     </Text>
     <Text Include="voucher.txt">
+      <Filter>Source Files\txt</Filter>
+    </Text>
+    <Text Include="comanda.txt">
       <Filter>Source Files\txt</Filter>
     </Text>
   </ItemGroup>
