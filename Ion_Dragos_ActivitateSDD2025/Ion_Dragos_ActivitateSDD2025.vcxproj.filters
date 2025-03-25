@@ -66,6 +66,9 @@
     <ClCompile Include="Proiect%28listaDubla%29.c">
       <Filter>Source Files\1.0. ListaDubla</Filter>
     </ClCompile>
+    <ClCompile Include="Factura(listaDubla) - eu.c">
+      <Filter>Source Files\1.0. ListaDubla</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="clienti.txt">
