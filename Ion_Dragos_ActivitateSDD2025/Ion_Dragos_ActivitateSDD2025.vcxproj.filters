@@ -72,10 +72,10 @@
     <ClCompile Include="Factura(listaDubla) - eu.c">
       <Filter>Source Files\1.0. ListaDubla</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\SDD2025\Exemple\tabela_dispersie\Comanda%28tabelaDispersie%29.c">
+    <ClCompile Include="..\..\..\..\..\SDD2025\Recapitulare structuri%28Teodor%29\Recapitulare_Structuri\sablonHashTable.c">
       <Filter>Source Files\TabelaDispersie</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\SDD2025\Recapitulare structuri%28Teodor%29\Recapitulare_Structuri\sablonHashTable.c">
+    <ClCompile Include="Comanda(tabelaDispersie).c">
       <Filter>Source Files\TabelaDispersie</Filter>
     </ClCompile>
   </ItemGroup>
