@@ -30,9 +30,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="22Martie.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Comanda%28listaDubla%29 - foarteBunExemplu.c">
       <Filter>Source Files\1.0. ListaDubla</Filter>
     </ClCompile>
@@ -76,6 +73,9 @@
       <Filter>Source Files\TabelaDispersie</Filter>
     </ClCompile>
     <ClCompile Include="Comanda(tabelaDispersie).c">
+      <Filter>Source Files\TabelaDispersie</Filter>
+    </ClCompile>
+    <ClCompile Include="22Martie.c">
       <Filter>Source Files\TabelaDispersie</Filter>
     </ClCompile>
   </ItemGroup>

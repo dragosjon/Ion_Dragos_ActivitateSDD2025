@@ -46,7 +46,9 @@
     <ClCompile Include="Comanda%28listaDubla%29 - foarteBunExemplu.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Comanda(tabelaDispersie).c" />
+    <ClCompile Include="Comanda(tabelaDispersie).c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="cursaAeriana(ListaDubla).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
