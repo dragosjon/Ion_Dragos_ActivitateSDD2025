@@ -25,6 +25,12 @@
     <ClCompile Include="..\..\..\..\..\SDD(pt EXAM)\Liste\AgentiiBancare_LIstaSimpla+ListadeListe.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\..\SDD2025\Exemple\tabela_dispersie\Comanda%28tabelaDispersie%29.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\SDD2025\Recapitulare structuri%28Teodor%29\Recapitulare_Structuri\sablonHashTable.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\..\..\..\..\SDD2025\Recapitulare structuri(Teodor)\Recapitulare_Structuri\ListaDubla.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
