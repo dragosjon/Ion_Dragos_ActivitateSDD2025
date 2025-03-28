@@ -78,6 +78,9 @@
     <ClCompile Include="22Martie.c">
       <Filter>Source Files\TabelaDispersie</Filter>
     </ClCompile>
+    <ClCompile Include="CursaAeriana(listaDubla) - eu.c">
+      <Filter>Source Files\1.0. ListaDubla</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="clienti.txt">
