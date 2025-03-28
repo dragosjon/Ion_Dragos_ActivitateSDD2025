@@ -72,6 +72,7 @@
   <ItemGroup>
     <Text Include="clienti.txt" />
     <Text Include="comanda.txt" />
+    <Text Include="cursaAeriana.txt" />
     <Text Include="factura.txt" />
     <Text Include="masini.txt" />
     <Text Include="proiect.txt" />

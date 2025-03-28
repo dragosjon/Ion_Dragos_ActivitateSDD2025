@@ -104,5 +104,8 @@
     <Text Include="comanda.txt">
       <Filter>Source Files\txt</Filter>
     </Text>
+    <Text Include="cursaAeriana.txt">
+      <Filter>Source Files\txt</Filter>
+    </Text>
   </ItemGroup>
 </Project>

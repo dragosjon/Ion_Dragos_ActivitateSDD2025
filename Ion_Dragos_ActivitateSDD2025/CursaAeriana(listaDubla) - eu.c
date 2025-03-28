@@ -68,6 +68,7 @@ void traversareNod(nodLS* cap) {
 	while (temp) {
 		printf("IdCursa = %u, Destinatie = %s, DataPlecare = %s, PasageriInregistrati = %hhu",
 			temp->inf.idCursa, temp->inf.destinatie, temp->inf.dataPlecare, temp->inf.pasageriInregistrati);
+		printf("\n");
 		temp = temp->next;
 	}
 }
@@ -77,6 +78,7 @@ void traversareInversaNod(nodLS* ultim) {
 	while (temp) {
 		printf("IdCursa = %u, Destinatie = %s, DataPlecare = %s, PasageriInregistrati = %hhu",
 			temp->inf.idCursa, temp->inf.destinatie, temp->inf.dataPlecare, temp->inf.pasageriInregistrati);
+		printf("\n");
 		temp = temp->prev;
 	}
 }
@@ -93,5 +95,23 @@ void dezalocare(nodLS* cap) {
 }
 
 int main() {
+	int n = 5;
+	nodLS* cap = NULL, * ultim = NULL;
 
+	FILE* file = fopen("cursaAeriana.txt", "r");
+
+	CursaAeriana c;
+	for (int i = 0; i < n; i++) {
+		c = citireCursaAeriana(file);
+		inserareNodLS(&cap, &ultim, c);
+		free(c.destinatie);
+		free(c.dataPlecare);
+	}
+
+	traversareNod(cap);
+	printf("\n");
+	traversareInversaNod(ultim);
+	printf("\n");
+
+	dezalocare(cap);
 }
