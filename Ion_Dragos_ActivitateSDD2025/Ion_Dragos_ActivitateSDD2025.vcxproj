@@ -67,7 +67,9 @@
     <ClCompile Include="Factura(listaDubla) - eu.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Produs(listaDeListe).c" />
+    <ClCompile Include="Produs%28listaDeListe%29 - eu FOARTE BUN.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Proiect%28listaDubla%29.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -88,6 +90,7 @@
     <Text Include="factura.txt" />
     <Text Include="masini.txt" />
     <Text Include="produs.txt" />
+    <Text Include="produs2.txt" />
     <Text Include="proiect.txt" />
     <Text Include="txtCursaAeriana.txt" />
     <Text Include="voucher.txt" />

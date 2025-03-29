@@ -90,7 +90,7 @@
     <ClCompile Include="Produs%28listaSimpla%29 - eu.c">
       <Filter>Source Files\sablon ListaSimpla + ListaDeListe</Filter>
     </ClCompile>
-    <ClCompile Include="Produs(listaDeListe).c">
+    <ClCompile Include="Produs%28listaDeListe%29 - eu FOARTE BUN.c">
       <Filter>Source Files\sablon ListaSimpla + ListaDeListe</Filter>
     </ClCompile>
   </ItemGroup>
@@ -120,6 +120,9 @@
       <Filter>Source Files\txt</Filter>
     </Text>
     <Text Include="produs.txt">
+      <Filter>Source Files\txt</Filter>
+    </Text>
+    <Text Include="produs2.txt">
       <Filter>Source Files\txt</Filter>
     </Text>
   </ItemGroup>
