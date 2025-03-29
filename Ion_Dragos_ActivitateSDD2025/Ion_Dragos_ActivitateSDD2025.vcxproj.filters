@@ -81,6 +81,15 @@
     <ClCompile Include="CursaAeriana(listaDubla) - eu.c">
       <Filter>Source Files\1.0. ListaDubla</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\..\SDD(pt EXAM)\Liste\Consultatie - listadeliste.c">
+      <Filter>Source Files\sablon ListaSimpla + ListaDeListe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\SDD(pt EXAM)\Liste\Sticla_ListeSimpluInlantuite.c">
+      <Filter>Source Files\sablon ListaSimpla + ListaDeListe</Filter>
+    </ClCompile>
+    <ClCompile Include="Produs%28listaSimpla%29 - eu.c">
+      <Filter>Source Files\sablon ListaSimpla + ListaDeListe</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="clienti.txt">
