@@ -84,6 +84,7 @@
     <Text Include="cursaAeriana.txt" />
     <Text Include="factura.txt" />
     <Text Include="masini.txt" />
+    <Text Include="produs.txt" />
     <Text Include="proiect.txt" />
     <Text Include="txtCursaAeriana.txt" />
     <Text Include="voucher.txt" />

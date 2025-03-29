@@ -17,7 +17,7 @@ typedef struct {
 void inserareNod(nodLS** cap, Produs p) {
 	nodLS* nou = (nodLS*)malloc(sizeof(nodLS));
 
-	nodLS* cap = NULL;
+	nou->next = NULL;
 
 	nou->inf.cod = p.cod;
 	
@@ -42,9 +42,9 @@ void inserareNod(nodLS** cap, Produs p) {
 void traversareLista(nodLS* cap) {
 	nodLS* temp = cap;
 	while (temp) {
-		printf("Cod = %d, Denumire = %s, Pret = %.2f",
+		printf("Cod = %d, Denumire = %s, Pret = %5.2f",
 			temp->inf.cod, temp->inf.denumire, temp->inf.pret);
-		printf("/n");
+		printf("\n");
 		temp = temp->next;
 	}
 
@@ -54,13 +54,13 @@ Produs citireProdus(FILE* file) {
 	Produs p;
 	char buffer[100];
 
-	fscanf(file, "%d", p.cod);
+	fscanf(file, "%d", &p.cod);
 
-	fscanf(file, "%s", &p.denumire);
+	fscanf(file, "%s", buffer);
 	p.denumire = (char*)malloc((strlen(buffer) + 1) * sizeof(char));
 	strcpy(p.denumire, buffer);
 
-	fscanf(file, "%.2f", &p.pret);
+	fscanf(file, "%f", &p.pret);
 
 	return p;
 }

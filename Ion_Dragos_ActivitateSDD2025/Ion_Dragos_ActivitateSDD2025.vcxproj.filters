@@ -116,5 +116,8 @@
     <Text Include="cursaAeriana.txt">
       <Filter>Source Files\txt</Filter>
     </Text>
+    <Text Include="produs.txt">
+      <Filter>Source Files\txt</Filter>
+    </Text>
   </ItemGroup>
 </Project>
