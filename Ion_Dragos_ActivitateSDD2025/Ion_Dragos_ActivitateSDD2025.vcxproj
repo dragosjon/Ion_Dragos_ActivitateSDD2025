@@ -55,7 +55,9 @@
     <ClCompile Include="Comanda(tabelaDispersie).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Produs%28listaSimpla%29 - eu.c" />
+    <ClCompile Include="Produs%28listaSimpla%29 - eu.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="CursaAeriana(listaDubla) - eu.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -65,6 +67,7 @@
     <ClCompile Include="Factura(listaDubla) - eu.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Produs(listaDeListe).c" />
     <ClCompile Include="Proiect%28listaDubla%29.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
