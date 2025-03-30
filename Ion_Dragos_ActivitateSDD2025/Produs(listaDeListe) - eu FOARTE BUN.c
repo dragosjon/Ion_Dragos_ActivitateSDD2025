@@ -38,8 +38,8 @@ void inserareNodLS(nodLS** capLS, Produs p) {
 		nodLS* temp = *capLS;
 		while (temp->next) 
 			temp = temp->next;
-		temp->next = nou;
 	}
+	temp->next = nou;
 
 }
 

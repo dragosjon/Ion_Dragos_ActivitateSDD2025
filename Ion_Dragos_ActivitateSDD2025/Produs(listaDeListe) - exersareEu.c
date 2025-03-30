@@ -38,9 +38,9 @@ void inserareNodLS(nodLS** capLS, Produs p) {
 		nodLS* temp = *capLS;
 		while (temp->next) {
 			temp = temp->next;
-			temp->next = nou;
 		}
-		
+		temp->next = nou;
+
 	}
 	
 }
@@ -87,5 +87,67 @@ void traversareLP(nodLP* cap) {
 Produs citireProdus(FILE* file) {
 	Produs p;
 	char buffer[100];
+
+	fscanf(file, "%d", &p.cod);
+
+	fscanf(file, "%s", buffer);
+	p.denumire = (char*)malloc((strlen(buffer) + 1) * sizeof(char));
+	strcpy(p.denumire, buffer);
+
+	fscanf(file, "%f", &p.pret);
+
+	return p;
+}
+
+void dezalocareLS(nodLS* cap) {
+	nodLS* temp = cap;
+	while (temp) {
+		nodLS* aux = temp->next;
+		free(temp->inf.denumire);
+		free(temp);
+		temp = aux;
+	}
+}
+
+void dezalocareLP(nodLP* cap) {
+	nodLP* temp = cap;
+	while (temp) {
+		nodLP* aux = temp->next;
+		dezalocareLS(temp->capLS);
+		free(temp);
+		temp = aux;
+	}
+}
+
+int main() {
+	int n = 4;
+	nodLP* capLP = NULL;
+
+	nodLS* scumpe = NULL, * ieftine = NULL;
+
+	FILE* file = fopen("produs.txt", "r");
+
+	Produs p;
+	for (int i = 0; i < n; i++) {
+		nodLS* capLS = NULL;
+
+		p = citireProdus(file);
+
+		if (p.pret > 100) 
+			inserareNodLS(&scumpe, p);
+		else
+			inserareNodLS(&ieftine, p);
+		
+
+
+	}
+
+
+	inserareNodLP(&capLP, scumpe);
+	inserareNodLP(&capLP, ieftine);
+
+	traversareLP(capLP);
+
+	dezalocareLP(capLP);
 
 }

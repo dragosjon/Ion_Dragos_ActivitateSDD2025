@@ -1,3 +1,4 @@
 1 Salam 200
 2 Pateu 3
 3 Carne 300
+4 Ciorba 6
