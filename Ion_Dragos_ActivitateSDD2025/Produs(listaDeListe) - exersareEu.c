@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+﻿#define _CRT_SECURE_NO_WARNINGS
 #include <malloc.h>
 #include <string.h>
 #include <stdio.h>
@@ -129,19 +129,17 @@ int main() {
 
 	Produs p;
 	for (int i = 0; i < n; i++) {
-		nodLS* capLS = NULL;
-
 		p = citireProdus(file);
 
 		if (p.pret > 100) 
 			inserareNodLS(&scumpe, p);
 		else
 			inserareNodLS(&ieftine, p);
-		
+		free(p.denumire);
 
 
 	}
-
+	fclose(file);
 
 	inserareNodLP(&capLP, scumpe);
 	inserareNodLP(&capLP, ieftine);

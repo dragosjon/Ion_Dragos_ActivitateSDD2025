@@ -130,14 +130,14 @@ int main() {
 
 	Produs p;
 	for (int i = 0; i < n; i++) {
-		nodLS* capLS = NULL;
+		
 		p = citireProdus(f);
 		
 		if (p.pret > 100)
 			inserareNodLS(&scumpe, p);
 		else
 			inserareNodLS(&ieftine, p);
-
+		free(p.denumire);
 
 		
 	}

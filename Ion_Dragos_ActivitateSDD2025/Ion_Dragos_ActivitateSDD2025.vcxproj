@@ -70,7 +70,10 @@
     <ClCompile Include="Produs%28listaDeListe%29 - eu FOARTE BUN.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Produs(listaDeListe) - exersareEu.c" />
+    <ClCompile Include="Produs(listaDeListe) - exersareEu.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Produs(listaDubla) - eu.c" />
     <ClCompile Include="Produs(listaSimpla) - exersareEu.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -92,6 +95,7 @@
     <Text Include="comanda.txt" />
     <Text Include="cursaAeriana.txt" />
     <Text Include="factura.txt" />
+    <Text Include="fisier.txt" />
     <Text Include="masini.txt" />
     <Text Include="produs.txt" />
     <Text Include="produs2.txt" />
