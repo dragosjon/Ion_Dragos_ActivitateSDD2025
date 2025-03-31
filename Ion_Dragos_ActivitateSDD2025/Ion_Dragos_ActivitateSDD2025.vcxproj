@@ -70,10 +70,13 @@
     <ClCompile Include="Produs%28listaDeListe%29 - eu FOARTE BUN.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Produs(listaDeListe) - euV2.c" />
     <ClCompile Include="Produs(listaDeListe) - exersareEu.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Produs(listaDubla) - eu.c" />
+    <ClCompile Include="Produs(listaDubla) - eu.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Produs(listaSimpla) - exersareEu.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
