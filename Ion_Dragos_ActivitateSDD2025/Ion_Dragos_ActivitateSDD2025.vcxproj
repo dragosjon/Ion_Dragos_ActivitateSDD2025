@@ -80,7 +80,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Produs(listaDubla) - eu.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Produs%28listaDubla + vector- facut de AI%29 - euV2 .C">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -97,6 +97,7 @@
     <ClCompile Include="Proiect%28listaDubla%29 - eu.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Student(listaDeListe) - eu.c" />
     <ClCompile Include="TabelaChaining(Ciurea).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -114,6 +115,7 @@
     <Text Include="produs.txt" />
     <Text Include="produs2.txt" />
     <Text Include="proiect.txt" />
+    <Text Include="student.txt" />
     <Text Include="txtCursaAeriana.txt" />
     <Text Include="voucher.txt" />
   </ItemGroup>
