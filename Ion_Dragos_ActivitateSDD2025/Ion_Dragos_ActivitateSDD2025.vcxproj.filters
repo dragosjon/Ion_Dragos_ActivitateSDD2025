@@ -105,11 +105,14 @@
     <ClCompile Include="Produs(listaDeListe) - euV2.c">
       <Filter>Source Files\sablon ListaSimpla + ListaDeListe</Filter>
     </ClCompile>
-    <ClCompile Include="ListaDeLista%28Ciurea%29.c">
+    <ClCompile Include="ListaDeLista%28Ciurea%29- Student.c">
       <Filter>Source Files\sablon ListaSimpla + ListaDeListe</Filter>
     </ClCompile>
     <ClCompile Include="TabelaChaining(Ciurea).c">
       <Filter>Source Files\TabelaDispersie</Filter>
+    </ClCompile>
+    <ClCompile Include="Produs%28listaDubla + vector- facut de AI%29 - euV2 .C">
+      <Filter>Source Files\1.0. ListaDubla</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
