@@ -28,6 +28,9 @@
     <Filter Include="Source Files\TabelaDispersie">
       <UniqueIdentifier>{9b9e9f0a-9546-4cef-954f-5c4d3648f2cb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\ListaDubla + Vector">
+      <UniqueIdentifier>{33d68720-96b5-431b-8468-c9ee6eeb5088}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Comanda%28listaDubla%29 - foarteBunExemplu.c">
@@ -120,6 +123,12 @@
     <ClCompile Include="Student(listaDubla).c">
       <Filter>Source Files\1.0. ListaDubla</Filter>
     </ClCompile>
+    <ClCompile Include="Carte(listaDubla + Vector).c">
+      <Filter>Source Files\ListaDubla + Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaDubla + Vector(Ciurea).c">
+      <Filter>Source Files\ListaDubla + Vector</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="clienti.txt">
@@ -156,6 +165,9 @@
       <Filter>Source Files\txt</Filter>
     </Text>
     <Text Include="student.txt">
+      <Filter>Source Files\txt</Filter>
+    </Text>
+    <Text Include="carte.txt">
       <Filter>Source Files\txt</Filter>
     </Text>
   </ItemGroup>
