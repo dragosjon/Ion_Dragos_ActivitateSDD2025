@@ -117,6 +117,9 @@
     <ClCompile Include="Student(listaDeListe) - eu.c">
       <Filter>Source Files\sablon ListaSimpla + ListaDeListe</Filter>
     </ClCompile>
+    <ClCompile Include="Student(listaDubla).c">
+      <Filter>Source Files\1.0. ListaDubla</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="clienti.txt">
