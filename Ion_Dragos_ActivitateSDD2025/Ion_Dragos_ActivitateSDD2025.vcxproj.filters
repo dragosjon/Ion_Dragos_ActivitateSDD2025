@@ -129,6 +129,9 @@
     <ClCompile Include="ListaDubla + Vector(Ciurea).c">
       <Filter>Source Files\ListaDubla + Vector</Filter>
     </ClCompile>
+    <ClCompile Include="Student %28listaDeListe%29 v2.c">
+      <Filter>Source Files\sablon ListaSimpla + ListaDeListe</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="clienti.txt">
