@@ -58,7 +58,10 @@
     <ClCompile Include="Comanda(tabelaDispersie).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Student %28listaDeListe%29 v2.c" />
+    <ClCompile Include="Carte%28listaDubla+Vector%29V2.c" />
+    <ClCompile Include="Student %28listaDeListe%29 v2.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="ListaDeLista%28Ciurea%29- Student.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

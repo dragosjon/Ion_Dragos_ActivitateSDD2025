@@ -132,6 +132,9 @@
     <ClCompile Include="Student %28listaDeListe%29 v2.c">
       <Filter>Source Files\sablon ListaSimpla + ListaDeListe</Filter>
     </ClCompile>
+    <ClCompile Include="Carte%28listaDubla+Vector%29V2.c">
+      <Filter>Source Files\ListaDubla + Vector</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="clienti.txt">
