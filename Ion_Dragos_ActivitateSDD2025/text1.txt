@@ -1,0 +1,7 @@
+6
+1 mere 5.5
+2 laptop 101
+3 telefon 202
+4 capsuni 7.5
+5 pantofi_sport 99
+6 altele 303

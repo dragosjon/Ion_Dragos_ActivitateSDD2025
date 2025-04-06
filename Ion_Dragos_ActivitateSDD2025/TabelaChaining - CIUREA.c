@@ -52,8 +52,8 @@ void inserareLS(nodLS** capLS, produs p)
 
 void inserareHash(hashT tabela, produs p)
 {
-	//int poz = functieHash1(tabela, p.cod);
-	int poz = functieHash2(tabela, p.denumire);
+	int poz = functieHash1(tabela, p.cod);
+	//int poz = functieHash2(tabela, p.denumire);
 	inserareLS(&tabela.vect[poz], p);
 }
 

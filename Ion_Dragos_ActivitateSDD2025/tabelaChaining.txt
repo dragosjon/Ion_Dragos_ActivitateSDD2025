@@ -1,0 +1,4 @@
+3
+1 Laptop 2500.50
+2 Telefon 1500.75
+3 Tableta 1200.00

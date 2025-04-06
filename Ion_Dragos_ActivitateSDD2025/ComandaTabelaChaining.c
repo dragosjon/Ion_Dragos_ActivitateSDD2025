@@ -1,6 +1,7 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include "malloc.h"
-#include "string.h"
+#include <malloc.h>
+#include <string.h>
 
 typedef struct comanda {
     unsigned int idComanda;
@@ -152,10 +153,10 @@ void modifComanda(tabelaH t, int idComada, char* dataLivrareNoua) {
 
 
 int main() {
-    tabelaH t = creareTabelaDinFisier(3);
+    tabelaH t = creareTabelaDinFisier(1);
     afisareTabela(t);
-    printf("  \n Cleintul are %d comenzii: \n", nrComenziClient(t, "Test"));
-    modifComanda(t, 18, "2024-07-16");
+	printf("Nr comenzi client: %d\n", nrComenziClient(t, "JohnDoe"));
+    modifComanda(t, 1, "2025-01-01");
     afisareTabela(t);
     return 0;
 }
