@@ -31,7 +31,7 @@
     <ClCompile Include="..\..\..\..\..\SDD(pt EXAM)\Liste\Sticla_ListeSimpluInlantuite.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\SDD2025\Recapitulare structuri%28Teodor%29\Recapitulare_Structuri\sablonHashTable.c">
+    <ClCompile Include="..\..\..\..\..\SDD2025\Recapitulare structuri%28Teodor%29\Recapitulare_Structuri\TabelaChaining - Razvan.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\..\..\..\SDD2025\Recapitulare structuri(Teodor)\Recapitulare_Structuri\ListaDubla.c">
@@ -58,7 +58,15 @@
     <ClCompile Include="Comanda(tabelaDispersie).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Carte%28listaDubla+Vector%29V2.c" />
+    <ClCompile Include="Carte%28listaDubla+Vector%29V2.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="TabelaLinearProbing - Razvan.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="TabelaLinearProbing- CIUREA.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Student %28listaDeListe%29 v2.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -113,7 +121,10 @@
     <ClCompile Include="Student(listaDubla).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="TabelaChaining(Ciurea).c">
+    <ClCompile Include="TabelaChaining - CIUREA.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="TabelaChaining - eu.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Voucher%28listaDubla%29- deMine.c">

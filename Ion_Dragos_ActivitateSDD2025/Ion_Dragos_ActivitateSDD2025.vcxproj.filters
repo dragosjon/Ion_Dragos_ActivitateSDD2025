@@ -72,7 +72,7 @@
     <ClCompile Include="Factura(listaDubla) - eu.c">
       <Filter>Source Files\1.0. ListaDubla</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\SDD2025\Recapitulare structuri%28Teodor%29\Recapitulare_Structuri\sablonHashTable.c">
+    <ClCompile Include="..\..\..\..\..\SDD2025\Recapitulare structuri%28Teodor%29\Recapitulare_Structuri\TabelaChaining - Razvan.c">
       <Filter>Source Files\TabelaDispersie</Filter>
     </ClCompile>
     <ClCompile Include="Comanda(tabelaDispersie).c">
@@ -111,7 +111,7 @@
     <ClCompile Include="ListaDeLista%28Ciurea%29- Student.c">
       <Filter>Source Files\sablon ListaSimpla + ListaDeListe</Filter>
     </ClCompile>
-    <ClCompile Include="TabelaChaining(Ciurea).c">
+    <ClCompile Include="TabelaChaining - CIUREA.c">
       <Filter>Source Files\TabelaDispersie</Filter>
     </ClCompile>
     <ClCompile Include="Produs%28listaDubla + vector- facut de AI%29 - euV2 .C">
@@ -134,6 +134,15 @@
     </ClCompile>
     <ClCompile Include="Carte%28listaDubla+Vector%29V2.c">
       <Filter>Source Files\ListaDubla + Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="TabelaLinearProbing - Razvan.c">
+      <Filter>Source Files\TabelaDispersie</Filter>
+    </ClCompile>
+    <ClCompile Include="TabelaChaining - eu.c">
+      <Filter>Source Files\TabelaDispersie</Filter>
+    </ClCompile>
+    <ClCompile Include="TabelaLinearProbing- CIUREA.c">
+      <Filter>Source Files\TabelaDispersie</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
