@@ -144,6 +144,12 @@
     <ClCompile Include="TabelaLinearProbing- CIUREA.c">
       <Filter>Source Files\TabelaDispersie</Filter>
     </ClCompile>
+    <ClCompile Include="TabelaChainingV2.c">
+      <Filter>Source Files\TabelaDispersie</Filter>
+    </ClCompile>
+    <ClCompile Include="IncercareComanda.c">
+      <Filter>Source Files\TabelaDispersie</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="clienti.txt">
