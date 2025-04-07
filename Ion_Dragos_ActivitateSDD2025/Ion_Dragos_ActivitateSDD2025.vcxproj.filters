@@ -147,7 +147,7 @@
     <ClCompile Include="TabelaChainingV2.c">
       <Filter>Source Files\TabelaDispersie</Filter>
     </ClCompile>
-    <ClCompile Include="IncercareComanda.c">
+    <ClCompile Include="SABLON_TabelaChaining_Comanda.c">
       <Filter>Source Files\TabelaDispersie</Filter>
     </ClCompile>
   </ItemGroup>
