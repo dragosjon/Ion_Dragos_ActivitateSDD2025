@@ -150,6 +150,9 @@
     <ClCompile Include="SABLON_TabelaChaining_Comanda.c">
       <Filter>Source Files\TabelaDispersie</Filter>
     </ClCompile>
+    <ClCompile Include="ProdusListaDubla+vector.c">
+      <Filter>Source Files\ListaDubla + Vector</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="clienti.txt">
