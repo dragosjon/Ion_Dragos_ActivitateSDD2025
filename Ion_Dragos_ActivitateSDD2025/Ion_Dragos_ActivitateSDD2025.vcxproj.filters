@@ -153,6 +153,9 @@
     <ClCompile Include="ProdusListaDubla+vector.c">
       <Filter>Source Files\ListaDubla + Vector</Filter>
     </ClCompile>
+    <ClCompile Include="StudentTabelaChaining.c">
+      <Filter>Source Files\TabelaDispersie</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="clienti.txt">
@@ -201,6 +204,9 @@
       <Filter>Source Files\txt</Filter>
     </Text>
     <Text Include="text1.txt">
+      <Filter>Source Files\txt</Filter>
+    </Text>
+    <Text Include="tabelaStudent.txt">
       <Filter>Source Files\txt</Filter>
     </Text>
   </ItemGroup>

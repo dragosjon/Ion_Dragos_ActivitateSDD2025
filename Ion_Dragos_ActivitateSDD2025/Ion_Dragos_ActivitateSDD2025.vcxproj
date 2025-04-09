@@ -67,6 +67,7 @@
     <ClCompile Include="SABLON_TabelaChaining_Comanda.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="StudentTabelaChaining.c" />
     <ClCompile Include="TabelaChainingV2.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -154,6 +155,7 @@
     <Text Include="proiect.txt" />
     <Text Include="student.txt" />
     <Text Include="tabelaChaining.txt" />
+    <Text Include="tabelaStudent.txt" />
     <Text Include="text1.txt" />
     <Text Include="txtCursaAeriana.txt" />
     <Text Include="voucher.txt" />
