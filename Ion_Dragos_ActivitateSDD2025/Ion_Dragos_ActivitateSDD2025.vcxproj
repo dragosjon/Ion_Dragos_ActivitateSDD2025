@@ -139,6 +139,9 @@
     <ClCompile Include="TabelaChaining - eu.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Vagon_ListaDubla.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Voucher%28listaDubla%29- deMine.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -161,6 +164,8 @@
     <Text Include="tabelaStudent.txt" />
     <Text Include="text1.txt" />
     <Text Include="txtCursaAeriana.txt" />
+    <Text Include="vagoane.txt" />
+    <Text Include="vagoane_invers.txt" />
     <Text Include="voucher.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

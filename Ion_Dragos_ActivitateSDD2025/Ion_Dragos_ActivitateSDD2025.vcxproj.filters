@@ -156,6 +156,9 @@
     <ClCompile Include="StudentTabelaChaining.c">
       <Filter>Source Files\TabelaDispersie</Filter>
     </ClCompile>
+    <ClCompile Include="Vagon_ListaDubla.c">
+      <Filter>Source Files\ListaDubla + Vector</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="clienti.txt">
@@ -210,6 +213,12 @@
       <Filter>Source Files\txt</Filter>
     </Text>
     <Text Include="agentii.txt">
+      <Filter>Source Files\txt</Filter>
+    </Text>
+    <Text Include="vagoane.txt">
+      <Filter>Source Files\txt</Filter>
+    </Text>
+    <Text Include="vagoane_invers.txt">
       <Filter>Source Files\txt</Filter>
     </Text>
   </ItemGroup>

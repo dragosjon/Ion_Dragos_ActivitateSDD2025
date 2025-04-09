@@ -1,0 +1,26 @@
+Lista de vagoane in ordine inversa:
+Numar vagon: 5
+Numar locuri: 140
+Numar pasageri: 100
+Companie transport: EpsilonTransport
+
+Numar vagon: 4
+Numar locuri: 130
+Numar pasageri: 85
+Companie transport: DeltaTransport
+
+Numar vagon: 3
+Numar locuri: 110
+Numar pasageri: 95
+Companie transport: GammaTransport
+
+Numar vagon: 2
+Numar locuri: 120
+Numar pasageri: 90
+Companie transport: BetaTransport
+
+Numar vagon: 1
+Numar locuri: 100
+Numar pasageri: 80
+Companie transport: AlphaTransport
+
