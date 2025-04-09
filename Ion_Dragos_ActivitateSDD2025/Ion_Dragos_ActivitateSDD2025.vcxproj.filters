@@ -209,5 +209,8 @@
     <Text Include="tabelaStudent.txt">
       <Filter>Source Files\txt</Filter>
     </Text>
+    <Text Include="agentii.txt">
+      <Filter>Source Files\txt</Filter>
+    </Text>
   </ItemGroup>
 </Project>

@@ -1,0 +1,5 @@
+1 AlphaBank 1500.50 200
+2 BetaBank 2500.75 300
+3 GammaBank 1800.00 150
+4 DeltaBank 2200.25 250
+5 EpsilonBank 3000.00 400

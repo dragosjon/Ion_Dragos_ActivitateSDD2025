@@ -23,7 +23,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\..\..\..\SDD(pt EXAM)\Liste\AgentiiBancare_LIstaSimpla+ListadeListe.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\..\..\..\SDD(pt EXAM)\Liste\Consultatie - listadeliste.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -67,7 +67,9 @@
     <ClCompile Include="SABLON_TabelaChaining_Comanda.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="StudentTabelaChaining.c" />
+    <ClCompile Include="StudentTabelaChaining.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="TabelaChainingV2.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -142,6 +144,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <Text Include="agentii.txt" />
     <Text Include="carte.txt" />
     <Text Include="clienti.txt" />
     <Text Include="com.txt" />
