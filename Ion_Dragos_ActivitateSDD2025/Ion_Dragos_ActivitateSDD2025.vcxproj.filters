@@ -159,6 +159,9 @@
     <ClCompile Include="Vagon_ListaDubla.c">
       <Filter>Source Files\ListaDubla + Vector</Filter>
     </ClCompile>
+    <ClCompile Include="Farmacie.c">
+      <Filter>Source Files\ListaDubla + Vector</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="clienti.txt">
@@ -219,6 +222,9 @@
       <Filter>Source Files\txt</Filter>
     </Text>
     <Text Include="vagoane_invers.txt">
+      <Filter>Source Files\txt</Filter>
+    </Text>
+    <Text Include="farmacie.txt">
       <Filter>Source Files\txt</Filter>
     </Text>
   </ItemGroup>

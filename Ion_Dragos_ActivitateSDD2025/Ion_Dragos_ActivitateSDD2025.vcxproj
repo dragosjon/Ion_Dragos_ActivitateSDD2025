@@ -61,6 +61,7 @@
     <ClCompile Include="Carte%28listaDubla+Vector%29V2.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Farmacie.c" />
     <ClCompile Include="ProdusListaDubla+vector.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -154,6 +155,7 @@
     <Text Include="comanda.txt" />
     <Text Include="cursaAeriana.txt" />
     <Text Include="factura.txt" />
+    <Text Include="farmacie.txt" />
     <Text Include="fisier.txt" />
     <Text Include="masini.txt" />
     <Text Include="produs.txt" />
