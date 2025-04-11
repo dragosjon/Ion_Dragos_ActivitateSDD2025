@@ -159,7 +159,7 @@
     <ClCompile Include="Vagon_ListaDubla.c">
       <Filter>Source Files\ListaDubla + Vector</Filter>
     </ClCompile>
-    <ClCompile Include="Farmacie.c">
+    <ClCompile Include="Farmacie_ListaDubla.c">
       <Filter>Source Files\ListaDubla + Vector</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,1 +1,3 @@
 Farmacom 100 2 Luni-Vineri
+EdiCom 250 100 Luni-Vineri
+CocaFarm 150 1000 Luni-Miercuri

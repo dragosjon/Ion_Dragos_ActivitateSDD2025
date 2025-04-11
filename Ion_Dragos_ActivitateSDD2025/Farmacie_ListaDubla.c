@@ -38,12 +38,12 @@ void inserareNodLS(nodLS** cap, nodLS** ultim, Farmacie f) {
 	}
 	else {
 		nodLS* temp = *cap;
-		while (temp->next) {
+		while (temp->next) 
 			temp = temp->next;
-			temp->next = nou;
-			nou->prev = temp;
-			*ultim = nou;
-		}
+		
+		temp->next = nou;
+		nou->prev = temp;
+		*ultim = nou;
 	}
 }
 
@@ -53,8 +53,9 @@ void traversareNod(nodLS* cap) {
 		printf("Denumire = %s, Suprafata = %f, NrAngajati = %hhu, Program = %s",
 			temp->inf.denumire, temp->inf.suprafata, temp->inf.nrAngajati, temp->inf.program);
 		printf("\n");
+		temp = temp->next;
 	}
-	temp = temp->next;
+	
 }
 
 void traversareInversa(nodLS* ultim) {
@@ -63,8 +64,9 @@ void traversareInversa(nodLS* ultim) {
 		printf("Denumire = %s, Suprafata = %f, NrAngajati = %hhu, Program = %s",
 			temp->inf.denumire, temp->inf.suprafata, temp->inf.nrAngajati, temp->inf.program);
 		printf("\n");
+		temp = temp->prev;
 	}
-	temp = temp->prev;
+	
 }
 
 Farmacie citireFarmacie(FILE* file) {
@@ -86,6 +88,49 @@ Farmacie citireFarmacie(FILE* file) {
 	return f;
 }
 
+//implementare functie care determina 2 farmacii cu cea mai mare suprafata a suprafetei
+
+void afisareFarmacieMaxSuprafata(nodLS* cap) {
+	nodLS* temp = cap;
+	float max1 = 0, max2 = 0;
+	char* denumire1 = NULL;
+	char* denumire2 = NULL;
+
+	while (temp) {
+		if (temp->inf.suprafata > max1) {
+			max2 = max1;
+			denumire2 = denumire1;
+			max1 = temp->inf.suprafata;
+			denumire1 = temp->inf.denumire;
+		}
+		else if (temp->inf.suprafata > max2) {
+			max2 = temp->inf.suprafata;
+			denumire2 = temp->inf.denumire;
+		}
+		temp = temp->next;
+	}
+
+	printf("Cele mai mari suprafete sunt: %s si %s\n", denumire1, denumire2);
+}
+
+
+
+//implementare functie care extrage intr-un vector toate farmaciile din lista al caror numar de angajati este mai mic decat valoare specificata ca paraemetru de intrare. functia implementata se apeleaza in main.
+void extragereFarmaciiAngajati(nodLS* cap, unsigned char nrAngajati, nodLS** capNou, int* n) {
+	nodLS* temp = cap;
+	*n = 0;
+
+	while (temp) {
+		if (temp->inf.nrAngajati < nrAngajati) {
+			inserareNodLS(capNou, capNou, temp->inf);
+			(*n)++;
+		}
+		temp = temp->next;
+	}
+}
+
+
+
 void dezalocare(nodLS* cap) {
 	nodLS* temp = cap;
 	while (temp) {
@@ -100,7 +145,7 @@ void dezalocare(nodLS* cap) {
 
 
 int main() {
-	int n = 1;
+	int n = 3;
 	nodLS* cap = NULL, * ultim = NULL;
 
 	FILE* file = fopen("farmacie.txt", "r");
@@ -118,7 +163,17 @@ int main() {
 	printf("\n");
 	traversareInversa(ultim);
 	printf("\n");
+	afisareFarmacieMaxSuprafata(cap);
+	printf("\n");
 
+	nodLS* capNou = NULL;
+	int nNou = 0;
+	extragereFarmaciiAngajati(cap, 5, &capNou, &nNou);
+	printf("Farmaciile cu nr angajati < 5 sunt:\n");
+	traversareNod(capNou);
+	printf("\n");
+	//dezalocare lista noua
+	
 	dezalocare(cap);
 	
 }
