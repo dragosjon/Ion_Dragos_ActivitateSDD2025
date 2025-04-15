@@ -162,7 +162,7 @@
     <ClCompile Include="Farmacie_ListaDubla.c">
       <Filter>Source Files\ListaDubla + Vector</Filter>
     </ClCompile>
-    <ClCompile Include="Rezervare.c">
+    <ClCompile Include="Rezervare%28listaDubla%29cuSablon + functii.c">
       <Filter>Source Files\1.0. ListaDubla</Filter>
     </ClCompile>
   </ItemGroup>
