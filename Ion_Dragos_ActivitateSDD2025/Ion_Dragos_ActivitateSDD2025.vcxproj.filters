@@ -162,6 +162,9 @@
     <ClCompile Include="Farmacie_ListaDubla.c">
       <Filter>Source Files\ListaDubla + Vector</Filter>
     </ClCompile>
+    <ClCompile Include="Rezervare.c">
+      <Filter>Source Files\1.0. ListaDubla</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="clienti.txt">
@@ -225,6 +228,9 @@
       <Filter>Source Files\txt</Filter>
     </Text>
     <Text Include="farmacie.txt">
+      <Filter>Source Files\txt</Filter>
+    </Text>
+    <Text Include="rezervare.txt">
       <Filter>Source Files\txt</Filter>
     </Text>
   </ItemGroup>

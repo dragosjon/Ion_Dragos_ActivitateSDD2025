@@ -67,6 +67,7 @@
     <ClCompile Include="ProdusListaDubla+vector.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Rezervare.c" />
     <ClCompile Include="SABLON_TabelaChaining_Comanda.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -163,6 +164,7 @@
     <Text Include="produs.txt" />
     <Text Include="produs2.txt" />
     <Text Include="proiect.txt" />
+    <Text Include="rezervare.txt" />
     <Text Include="student.txt" />
     <Text Include="tabelaChaining.txt" />
     <Text Include="tabelaStudent.txt" />
