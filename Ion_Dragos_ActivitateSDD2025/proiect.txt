@@ -1,4 +1,4 @@
-1 Benzinarie Romilva 1 50
+1 Benzinarie RomSilva 1 50
 2 Bloc GeorgeSRL 4000 100000
 3 Masina BMW 5 5000
 4 Casa Ion 2 20000
