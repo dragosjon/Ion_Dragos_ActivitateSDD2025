@@ -67,6 +67,7 @@
     <ClCompile Include="ProdusListaDubla+vector.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Proiect.c" />
     <ClCompile Include="Rezervare%28listaDubla%29cuSablon + functii.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
