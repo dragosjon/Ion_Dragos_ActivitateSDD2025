@@ -165,6 +165,9 @@
     <ClCompile Include="Rezervare%28listaDubla%29cuSablon + functii.c">
       <Filter>Source Files\1.0. ListaDubla</Filter>
     </ClCompile>
+    <ClCompile Include="Proiect.c">
+      <Filter>Source Files\1.0. ListaDubla</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="clienti.txt">
