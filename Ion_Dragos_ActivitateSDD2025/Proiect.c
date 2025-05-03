@@ -141,7 +141,6 @@ Proiect* proiecteBuget(nodLS* cap, float bugetMinim, int* n) {
 
 
 
---//Implementati functia care determina numarul de camere pentru un hotel specificat
 
 
 
