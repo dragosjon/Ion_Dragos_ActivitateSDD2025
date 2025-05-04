@@ -168,6 +168,12 @@
     <ClCompile Include="Proiect.c">
       <Filter>Source Files\1.0. ListaDubla</Filter>
     </ClCompile>
+    <ClCompile Include="Comanda_2022.c">
+      <Filter>Source Files\TabelaDispersie</Filter>
+    </ClCompile>
+    <ClCompile Include="Reteta_2022.c">
+      <Filter>Source Files\TabelaDispersie</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="clienti.txt">
@@ -234,6 +240,9 @@
       <Filter>Source Files\txt</Filter>
     </Text>
     <Text Include="rezervare.txt">
+      <Filter>Source Files\txt</Filter>
+    </Text>
+    <Text Include="reteta.txt">
       <Filter>Source Files\txt</Filter>
     </Text>
   </ItemGroup>
