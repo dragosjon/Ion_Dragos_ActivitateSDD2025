@@ -1,0 +1,6 @@
+5
+1 4 Dragos Popescu 100
+2 3 Andrei Ionescu 200
+3 2 Maria Georgescu 150
+4 1 Ion Georgescu 50
+5 0 Elena Andreea 300
