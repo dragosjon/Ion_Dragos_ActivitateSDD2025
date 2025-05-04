@@ -55,6 +55,9 @@
     <ClCompile Include="Comanda%28listaDubla%29 - foarteBunExemplu.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Comanda_2022.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="ComandaTabelaChaining.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -67,7 +70,12 @@
     <ClCompile Include="ProdusListaDubla+vector.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Proiect.c" />
+    <ClCompile Include="Proiect.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Reteta_2022.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Rezervare%28listaDubla%29cuSablon + functii.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -167,6 +175,7 @@
     <Text Include="produs.txt" />
     <Text Include="produs2.txt" />
     <Text Include="proiect.txt" />
+    <Text Include="reteta.txt" />
     <Text Include="rezervare.txt" />
     <Text Include="student.txt" />
     <Text Include="tabelaChaining.txt" />
