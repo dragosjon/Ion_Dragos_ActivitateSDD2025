@@ -174,6 +174,9 @@
     <ClCompile Include="Reteta_2022.c">
       <Filter>Source Files\TabelaDispersie</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\..\SDD 2025 TEST 1\Farmacie_ListaDubla+Vector2022\Farmacie_ListaDubla.c">
+      <Filter>Source Files\1.0. ListaDubla</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="clienti.txt">
