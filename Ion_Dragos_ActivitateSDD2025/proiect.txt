@@ -1,5 +1,5 @@
-1 Benzinarie RomSilva 1 50
-2 Bloc GeorgeSRL 4000 100000
-3 Masina BMW 5 5000
-4 Casa Ion 2 20000
-5 Scara TinicheaPFA 2 100
+1 Report 1000 2 "Proiect1"
+2 Statie 2000 3 "Proiect2"
+3 Bloc 3000 4 "Proiect3"
+4 Masina 4000 5 "Proiect4"
+5 Casa 5000 6 "Proiect5"
