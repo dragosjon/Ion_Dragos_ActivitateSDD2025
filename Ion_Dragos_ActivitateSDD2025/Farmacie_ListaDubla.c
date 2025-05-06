@@ -88,6 +88,21 @@ Farmacie citireFarmacie(FILE* file) {
 	return f;
 }
 
+//implementati functia care determina numarul de farmacii din lista de mai sus care sunt deschise la o anumita ora specificata ca parametru de intrare
+
+void afisareFarmaciiDeschiseLaOra(nodLS* cap, int ora) {
+	nodLS* temp = cap;
+	while (temp) {
+		if (temp->inf.nrAngajati > ora) {
+			printf("Denumire = %s, Suprafata = %f, NrAngajati = %hhu, Program = %s",
+				temp->inf.denumire, temp->inf.suprafata, temp->inf.nrAngajati, temp->inf.program);
+			printf("\n");
+		}
+		temp = temp->next;
+	}
+}
+
+
 //implementare functie care determina 2 farmacii cu cea mai mare suprafata a suprafetei
 
 void afisareFarmacieMaxSuprafata(nodLS* cap) {
@@ -163,6 +178,11 @@ int main() {
 	printf("\n");
 	traversareInversa(ultim);
 	printf("\n");
+
+	afisareFarmaciiDeschiseLaOra(cap, 2);
+	printf("\n");
+
+	
 	afisareFarmacieMaxSuprafata(cap);
 	printf("\n");
 
