@@ -251,5 +251,8 @@
     <Text Include="reteta.txt">
       <Filter>Source Files\txt</Filter>
     </Text>
+    <Text Include="dsd.txt">
+      <Filter>Source Files\txt</Filter>
+    </Text>
   </ItemGroup>
 </Project>
