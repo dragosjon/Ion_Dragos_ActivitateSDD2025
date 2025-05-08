@@ -15,4 +15,3 @@ float* = %p
 double = %lf
 double* = %p
 
-s
