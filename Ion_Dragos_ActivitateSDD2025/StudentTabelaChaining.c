@@ -156,6 +156,33 @@ void stergereStudentMedieMaxima(hashT tabela) {
 	}
 }
 
+//sa se realizeze conversia elemntelor din tabela de dispersie intr-o structura de tip lista de liste pring gruparea lementelor initial la nivel de medie adica studentii cu media peste 5 sunt intr-o sublista, iar cei cu media sub 5 in alta sublista
+
+void conversieListaDeListe(hashT tabela) {
+	nodLS* listaMediePeste5 = NULL;
+	nodLS* listaMedieSub5 = NULL;
+
+	for (int i = 0; i < tabela.nrElem; i++) {
+		nodLS* temp = tabela.vect[i];
+		while (temp) {
+			if (temp->inf.medie >= 5) {
+				inserareNodLS(&listaMediePeste5, temp->inf);
+			}
+			else {
+				inserareNodLS(&listaMedieSub5, temp->inf);
+			}
+			temp = temp->next;
+		}
+	}
+
+	printf("Lista studentilor cu media peste 5:\n");
+	traversareLS(listaMediePeste5);
+
+	printf("\nLista studentilor cu media sub 5:\n");
+	traversareLS(listaMedieSub5);
+}
+
+
 void dezalocareLS(nodLS* cap) {
     nodLS* temp = cap;
     while (temp) {
@@ -177,9 +204,18 @@ void dezalocareHash(hashT tabela) {
 int main() {
     hashT tabela = creareTabelaDinFisier(10);
     traversareHash(tabela);
-	stergereStudentMedieMaxima(tabela);
+	//stergereStudentMedieMaxima(tabela);
 	printf("\nDupa stergerea studentului cu media cea mai mare\n");
 	traversareHash(tabela);
+	printf("\nLista de studenti cu media peste 5 si sub 5\n");
+
+	conversieListaDeListe(tabela);
+
+
+
+   
+
+
     dezalocareHash(tabela);
     return 0;
 }
