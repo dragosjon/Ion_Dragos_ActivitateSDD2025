@@ -1,0 +1,17 @@
+unsigned int = %u
+unsigned char = %hhu
+unsigned short = %hu
+unsigned long = %lu
+
+char = %c
+char* = %s
+
+int = %d
+int* = %p
+
+float = %f
+float* = %p
+
+double = %lf
+double* = %p
+
