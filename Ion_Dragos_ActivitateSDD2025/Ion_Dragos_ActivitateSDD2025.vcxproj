@@ -174,6 +174,7 @@
     <Text Include="com.txt" />
     <Text Include="comanda.txt" />
     <Text Include="cursaAeriana.txt" />
+    <Text Include="dsd.txt" />
     <Text Include="factura.txt" />
     <Text Include="farmacie.txt" />
     <Text Include="fisier.txt" />
