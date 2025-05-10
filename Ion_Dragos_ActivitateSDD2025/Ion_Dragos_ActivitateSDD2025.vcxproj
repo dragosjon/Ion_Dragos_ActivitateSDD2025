@@ -55,6 +55,7 @@
     <ClCompile Include="Carte(listaDubla + Vector).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="coada_sablon.c" />
     <ClCompile Include="Comanda%28listaDubla%29 - foarteBunExemplu.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
