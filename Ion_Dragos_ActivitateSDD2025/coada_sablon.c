@@ -42,7 +42,7 @@ int get(nodCoada** prim, nodCoada** ultim, produs* p) {
 
 	if (*prim == NULL) {
 		*ultim = NULL;
-		return -1; // is it ok?
+		return -1; 
 	}
 
 	if (*prim != NULL && *ultim != NULL) {
