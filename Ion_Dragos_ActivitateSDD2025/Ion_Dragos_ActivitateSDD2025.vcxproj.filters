@@ -34,6 +34,9 @@
     <Filter Include="Source Files\%28Test2%29Coada-Queue">
       <UniqueIdentifier>{667f4b2c-8a69-4f01-9a21-d65e5f34dd8a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\%28Test2%29StackStiva">
+      <UniqueIdentifier>{7bf9e32c-34b1-4a71-bbd6-447fabbe4ed1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Comanda%28listaDubla%29 - foarteBunExemplu.c">
@@ -185,6 +188,9 @@
     </ClCompile>
     <ClCompile Include="coada_sablon.c">
       <Filter>Source Files\%28Test2%29Coada-Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="stiva_sablon.c">
+      <Filter>Source Files\%28Test2%29StackStiva</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
