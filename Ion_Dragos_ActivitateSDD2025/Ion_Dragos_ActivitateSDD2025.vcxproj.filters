@@ -37,6 +37,9 @@
     <Filter Include="Source Files\%28Test2%29StackStiva">
       <UniqueIdentifier>{7bf9e32c-34b1-4a71-bbd6-447fabbe4ed1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\%28Test2%29Heap">
+      <UniqueIdentifier>{e08eee9e-9163-4bad-b9b5-c7a3ce458701}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Comanda%28listaDubla%29 - foarteBunExemplu.c">
@@ -191,6 +194,9 @@
     </ClCompile>
     <ClCompile Include="stiva_sablon.c">
       <Filter>Source Files\%28Test2%29StackStiva</Filter>
+    </ClCompile>
+    <ClCompile Include="heap_sablon.c">
+      <Filter>Source Files\%28Test2%29Heap</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
