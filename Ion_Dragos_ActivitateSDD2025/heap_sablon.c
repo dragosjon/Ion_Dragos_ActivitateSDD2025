@@ -3,16 +3,18 @@
 #include <string.h>
 #include <malloc.h>	
 
+
 typedef struct {
+
 	int cod;
 	char* denumire;
 	float prioritate;
-} platforma;
+}platforma;
 
 typedef struct {
 	platforma* vect;
 	int nrElem;
-} heap;
+}heap;
 
 //filtrare, inserare, extragere, afisare
 
@@ -34,6 +36,7 @@ void filtrare(heap h, int index) {
 	}
 
 	if (indexMax != index) {
+
 		platforma temp = h.vect[index];
 		h.vect[index] = h.vect[indexMax];
 		h.vect[indexMax] = temp;
@@ -43,24 +46,10 @@ void filtrare(heap h, int index) {
 }
 
 void afisare(heap h) {
-	for (int i = 0; i < h.nrElem; i++) {
-		printf("\nCod: %d, Denumire: %s, Prioritate: %.2f", h.vect[i].cod, h.vect[i].denumire, h.vect[i].prioritate);
-	}
-}
-
-void scriereInFisier(heap h, const char* numeFisier) {
-	FILE* f = fopen(numeFisier, "w");
-	if (f == NULL) {
-		printf("Eroare la deschiderea fisierului %s\n", numeFisier);
-		return;
-	}
 
 	for (int i = 0; i < h.nrElem; i++) {
-		fprintf(f, "Cod: %d, Denumire: %s, Prioritate: %.2f\n", h.vect[i].cod, h.vect[i].denumire, h.vect[i].prioritate);
+		printf("\nPrioritate:%f", h.vect[i].prioritate);
 	}
-
-	fclose(f);
-	printf("Datele au fost scrise in fisierul %s\n", numeFisier);
 }
 
 void dezalocare(heap h) {
@@ -71,6 +60,7 @@ void dezalocare(heap h) {
 }
 
 void inserare(heap* h, platforma p) {
+
 	platforma* vectorNou = (platforma*)malloc(sizeof(platforma) * (h->nrElem + 1));
 	for (int i = 0; i < h->nrElem; i++) {
 		vectorNou[i] = h->vect[i];
@@ -87,6 +77,7 @@ void inserare(heap* h, platforma p) {
 }
 
 void extragere(heap* h, platforma* p) {
+
 	platforma* vectorNou = (platforma*)malloc(sizeof(platforma) * (h->nrElem - 1));
 	platforma temp = h->vect[0];
 	h->vect[0] = h->vect[h->nrElem - 1];
@@ -105,16 +96,13 @@ void extragere(heap* h, platforma* p) {
 	for (int i = (h->nrElem - 1) / 2; i >= 0; i--) {
 		filtrare(*h, i);
 	}
+
 }
 
 int main() {
+
 	int nrElem;
 	FILE* f = fopen("platforma.txt", "r");
-	if (f == NULL) {
-		printf("Eroare la deschiderea fisierului platforma.txt\n");
-		return -1;
-	}
-
 	fscanf(f, "%d", &nrElem);
 	heap heap;
 	heap.nrElem = nrElem;
@@ -122,11 +110,14 @@ int main() {
 
 	char buffer[30];
 	for (int i = 0; i < heap.nrElem; i++) {
+
 		fscanf(f, "%d", &heap.vect[i].cod);
 		fscanf(f, "%s", buffer);
 		heap.vect[i].denumire = (char*)malloc((strlen(buffer) + 1) * sizeof(char));
 		strcpy(heap.vect[i].denumire, buffer);
+
 		fscanf(f, "%f", &heap.vect[i].prioritate);
+
 	}
 
 	fclose(f);
@@ -137,19 +128,11 @@ int main() {
 
 	afisare(heap);
 
-	// Scrierea datelor în fișier pentru verificare
-	scriereInFisier(heap, "output_heap.txt");
-
 	printf("\n---------------------------------------------------------------------\n");
 
 	platforma p;
 	extragere(&heap, &p);
 
 	afisare(heap);
-
-	// Scrierea datelor actualizate în fișier după extragere
-	scriereInFisier(heap, "output_heap_after_extraction.txt");
-
 	dezalocare(heap);
-	return 0;
 }
