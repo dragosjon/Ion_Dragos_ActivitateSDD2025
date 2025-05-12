@@ -1,0 +1,4 @@
+3
+1 Platforma1 10.5
+2 Platforma2 5.0
+3 Platforma3 7.5
