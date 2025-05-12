@@ -272,5 +272,8 @@
     <Text Include="dsd.txt">
       <Filter>Source Files\txt</Filter>
     </Text>
+    <Text Include="platforma.txt">
+      <Filter>Source Files\txt</Filter>
+    </Text>
   </ItemGroup>
 </Project>
