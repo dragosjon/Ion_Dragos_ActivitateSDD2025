@@ -40,6 +40,9 @@
     <Filter Include="Source Files\%28Test2%29Heap">
       <UniqueIdentifier>{e08eee9e-9163-4bad-b9b5-c7a3ce458701}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\%28Test2%29Arbore">
+      <UniqueIdentifier>{9d677a8f-5748-40b7-a489-d913206b572e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Comanda%28listaDubla%29 - foarteBunExemplu.c">
@@ -197,6 +200,9 @@
     </ClCompile>
     <ClCompile Include="heap_sablon.c">
       <Filter>Source Files\%28Test2%29Heap</Filter>
+    </ClCompile>
+    <ClCompile Include="arbore%28ABC%29_sablon.c">
+      <Filter>Source Files\%28Test2%29Arbore</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

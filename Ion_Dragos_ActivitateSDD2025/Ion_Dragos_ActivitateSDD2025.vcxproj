@@ -52,6 +52,7 @@
     <ClCompile Include="22Martie.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="arbore%28ABC%29_sablon.c" />
     <ClCompile Include="Carte(listaDubla + Vector).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
