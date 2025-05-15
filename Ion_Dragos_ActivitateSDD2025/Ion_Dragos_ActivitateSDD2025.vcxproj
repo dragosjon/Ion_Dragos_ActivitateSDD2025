@@ -52,8 +52,8 @@
     <ClCompile Include="22Martie.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="arbore%28ABC%29_sablon.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    <ClCompile Include="arboreABC_sablon.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Carte(listaDubla + Vector).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -185,6 +185,7 @@
   <ItemGroup>
     <Text Include="agentii.txt" />
     <Text Include="carte.txt" />
+    <Text Include="carti.txt" />
     <Text Include="clienti.txt" />
     <Text Include="com.txt" />
     <Text Include="comanda.txt" />
