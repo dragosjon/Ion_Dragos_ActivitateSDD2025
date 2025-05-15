@@ -207,6 +207,12 @@
     <ClCompile Include="DispozitivMobil.c">
       <Filter>Source Files\%28Test2%29Coada-Queue</Filter>
     </ClCompile>
+    <ClCompile Include="heapSablonCiuri.c">
+      <Filter>Source Files\%28Test2%29Heap</Filter>
+    </ClCompile>
+    <ClCompile Include="arboreABC_zbor.c">
+      <Filter>Source Files\%28Test2%29Arbore</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="clienti.txt">
@@ -287,6 +293,14 @@
     <Text Include="dispozitivMobil.txt">
       <Filter>Source Files\txt</Filter>
     </Text>
-    <Text Include="carti.txt" />
+    <Text Include="carti.txt">
+      <Filter>Source Files\txt</Filter>
+    </Text>
+    <Text Include="zbor.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="activitateHeap.txt">
+      <Filter>Source Files\txt</Filter>
+    </None>
   </ItemGroup>
 </Project>
