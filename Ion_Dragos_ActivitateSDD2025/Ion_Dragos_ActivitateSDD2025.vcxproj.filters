@@ -204,6 +204,9 @@
     <ClCompile Include="arbore%28ABC%29_sablon.c">
       <Filter>Source Files\%28Test2%29Arbore</Filter>
     </ClCompile>
+    <ClCompile Include="DispozitivMobil.c">
+      <Filter>Source Files\%28Test2%29Coada-Queue</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="clienti.txt">
@@ -279,6 +282,9 @@
       <Filter>Source Files\txt</Filter>
     </Text>
     <Text Include="platforma.txt">
+      <Filter>Source Files\txt</Filter>
+    </Text>
+    <Text Include="dispozitivMobil.txt">
       <Filter>Source Files\txt</Filter>
     </Text>
   </ItemGroup>
