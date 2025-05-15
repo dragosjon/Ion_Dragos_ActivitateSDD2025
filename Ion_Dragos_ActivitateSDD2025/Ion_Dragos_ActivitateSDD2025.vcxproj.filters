@@ -201,7 +201,7 @@
     <ClCompile Include="heap_sablon.c">
       <Filter>Source Files\%28Test2%29Heap</Filter>
     </ClCompile>
-    <ClCompile Include="arbore%28ABC%29_sablon.c">
+    <ClCompile Include="arboreABC_sablon.c">
       <Filter>Source Files\%28Test2%29Arbore</Filter>
     </ClCompile>
     <ClCompile Include="DispozitivMobil.c">
@@ -287,5 +287,6 @@
     <Text Include="dispozitivMobil.txt">
       <Filter>Source Files\txt</Filter>
     </Text>
+    <Text Include="carti.txt" />
   </ItemGroup>
 </Project>
