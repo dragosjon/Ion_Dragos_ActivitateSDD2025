@@ -52,7 +52,9 @@
     <ClCompile Include="22Martie.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="arbore%28ABC%29_sablon.c" />
+    <ClCompile Include="arbore%28ABC%29_sablon.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Carte(listaDubla + Vector).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -69,6 +71,9 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Carte%28listaDubla+Vector%29V2.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="DispozitivMobil.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Farmacie_ListaDubla.c">
@@ -184,6 +189,7 @@
     <Text Include="com.txt" />
     <Text Include="comanda.txt" />
     <Text Include="cursaAeriana.txt" />
+    <Text Include="dispozitivMobil.txt" />
     <Text Include="dsd.txt" />
     <Text Include="factura.txt" />
     <Text Include="farmacie.txt" />
