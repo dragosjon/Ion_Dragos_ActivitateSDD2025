@@ -213,6 +213,12 @@
     <ClCompile Include="arboreABC_zbor.c">
       <Filter>Source Files\%28Test2%29Arbore</Filter>
     </ClCompile>
+    <ClCompile Include="arboreAVL_carteSablon.c">
+      <Filter>Source Files\%28Test2%29Arbore</Filter>
+    </ClCompile>
+    <ClCompile Include="arboreAVL_factura.c">
+      <Filter>Source Files\%28Test2%29Arbore</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="clienti.txt">
@@ -296,7 +302,10 @@
     <Text Include="carti.txt">
       <Filter>Source Files\txt</Filter>
     </Text>
-    <Text Include="zbor.txt" />
+    <Text Include="zbor.txt">
+      <Filter>Source Files\txt</Filter>
+    </Text>
+    <Text Include="facturi.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="activitateHeap.txt">
