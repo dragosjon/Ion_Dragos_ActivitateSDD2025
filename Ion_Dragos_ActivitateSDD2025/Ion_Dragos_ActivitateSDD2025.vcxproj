@@ -52,10 +52,16 @@
     <ClCompile Include="22Martie.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="arboreAVL_carteSablon.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="arboreABC_zbor.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="arboreABC_sablon.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="arboreAVL_factura.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Carte(listaDubla + Vector).c">
@@ -199,6 +205,7 @@
     <Text Include="dispozitivMobil.txt" />
     <Text Include="dsd.txt" />
     <Text Include="factura.txt" />
+    <Text Include="facturi.txt" />
     <Text Include="farmacie.txt" />
     <Text Include="fisier.txt" />
     <Text Include="masini.txt" />
