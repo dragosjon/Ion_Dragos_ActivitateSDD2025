@@ -131,6 +131,31 @@ void postordineAVL(nodAVL* rad) {
     }
 }
 
+//scrie functia care determina valoarea facturi emise la o data calendaristica specificate prin parametru de intrare al functiei
+float sumaFacturiLaData(nodAVL* rad, char* data) {
+	if (rad == NULL)
+		return 0;
+
+	float suma = 0;
+	if (strcmp(rad->inf.dataEmiterii, data) == 0) {
+		suma += rad->inf.valoareFactura;
+	}
+
+	suma += sumaFacturiLaData(rad->stanga, data);
+	suma += sumaFacturiLaData(rad->dreapta, data);
+
+	return suma;
+}
+
+//scrie functia pentru corectarea valorii facturilor din arborele AVL prin adaugarea unui comision bancar in valoare de 2,50 lei/factura.
+void corectareValoareFacturi(nodAVL* rad) {
+	if (rad == NULL)
+		return;
+
+	rad->inf.valoareFactura += 2.50;
+	corectareValoareFacturi(rad->stanga);
+	corectareValoareFacturi(rad->dreapta);
+}
 
 
 void dezalocareAVL(nodAVL* rad) {
@@ -183,8 +208,23 @@ void main() {
     printf("\n-------postordine AVL----\n");
     postordineAVL(rad);
 
+	//scrie functia care determina valoarea tuturor facturilor emise la o data calendaristica specificate prin parametru de intrare al functiei
+	char data[256];
+	printf("\nIntroduceti data pentru care doriti sa aflati suma facturilor: ");
+	scanf("%s", data);
+	float suma = sumaFacturiLaData(rad, data);
+	printf("\nSuma facturilor emise la data %s este: %.2f", data, suma);
+	printf("\n\n");
+
+	//scrie functia pentru corectarea valorii facturilor din arborele AVL prin adaugarea unui comision bancar in valoare de 2,50 lei/factura.
+	corectareValoareFacturi(rad);
+	printf("\n-------inordine AVL dupa corectare----\n");
+	inordineAVL(rad);
+	printf("\n\n");
 
 
 
     dezalocareAVL(rad);
 }
+
+
