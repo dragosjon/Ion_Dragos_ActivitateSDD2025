@@ -219,6 +219,9 @@
     <ClCompile Include="arboreAVL_factura.c">
       <Filter>Source Files\%28Test2%29Arbore</Filter>
     </ClCompile>
+    <ClCompile Include="AVL_factura.c">
+      <Filter>Source Files\%28Test2%29Arbore</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="clienti.txt">
@@ -305,7 +308,9 @@
     <Text Include="zbor.txt">
       <Filter>Source Files\txt</Filter>
     </Text>
-    <Text Include="facturi.txt" />
+    <Text Include="facturi.txt">
+      <Filter>Source Files\txt</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <None Include="activitateHeap.txt">
