@@ -64,10 +64,13 @@
     <ClCompile Include="arboreAVL_factura.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="AVL_factura.c" />
+    <ClCompile Include="AVL_factura.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Carte(listaDubla + Vector).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="coada_bilet2018.c" />
     <ClCompile Include="coada_sablon.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -210,6 +213,7 @@
     <Text Include="farmacie.txt" />
     <Text Include="fisier.txt" />
     <Text Include="masini.txt" />
+    <Text Include="pacient.txt" />
     <Text Include="platforma.txt" />
     <Text Include="produs.txt" />
     <Text Include="produs2.txt" />
