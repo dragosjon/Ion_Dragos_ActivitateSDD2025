@@ -1,0 +1,5 @@
+Problema: Gripa - Pacient: Popescu_Elena
+Problema: Dureri_de_cap - Pacient: Vasilescu_Andrei
+Problema: Raceala - Pacient: Ionescu_Gigel
+Problema: Dureri_de_spate - Pacient: Georgescu_Maria
+Problema: Febra - Pacient: Dumitrescu_Alina
