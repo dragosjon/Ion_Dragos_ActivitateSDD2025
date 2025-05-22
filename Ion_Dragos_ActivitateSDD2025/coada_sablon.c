@@ -72,6 +72,19 @@ void afisareCoada(nodCoada* prim) {
 	}
 }
 
+void dezalocareCoada(nodCoada** prim) {
+	if (*prim != NULL) {
+		nodCoada* temp = *prim;
+		while (temp) {
+			nodCoada* aux = temp;
+			temp = temp->next;
+			free(aux->inf.denumire);
+			free(aux);
+		}
+		*prim = NULL;
+	}
+}
+
 int main() {
 
 	nodCoada* prim = NULL, * ultim = NULL;
@@ -97,4 +110,6 @@ int main() {
 
 	}
 	afisareCoada(prim);
+
+	dezalocareCoada(&prim);
 }
