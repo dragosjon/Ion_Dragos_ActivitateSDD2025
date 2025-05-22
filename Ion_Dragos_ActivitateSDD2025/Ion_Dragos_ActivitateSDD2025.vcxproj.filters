@@ -204,9 +204,6 @@
     <ClCompile Include="arboreABC_sablon.c">
       <Filter>Source Files\%28Test2%29Arbore</Filter>
     </ClCompile>
-    <ClCompile Include="DispozitivMobil.c">
-      <Filter>Source Files\%28Test2%29Coada-Queue</Filter>
-    </ClCompile>
     <ClCompile Include="heapSablonCiuri.c">
       <Filter>Source Files\%28Test2%29Heap</Filter>
     </ClCompile>
@@ -221,6 +218,12 @@
     </ClCompile>
     <ClCompile Include="AVL_factura.c">
       <Filter>Source Files\%28Test2%29Arbore</Filter>
+    </ClCompile>
+    <ClCompile Include="DispozitivMobil.c">
+      <Filter>Source Files\%28Test2%29Coada-Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="coada_bilet2018.c">
+      <Filter>Source Files\%28Test2%29Coada-Queue</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -309,6 +312,9 @@
       <Filter>Source Files\txt</Filter>
     </Text>
     <Text Include="facturi.txt">
+      <Filter>Source Files\txt</Filter>
+    </Text>
+    <Text Include="pacient.txt">
       <Filter>Source Files\txt</Filter>
     </Text>
   </ItemGroup>
