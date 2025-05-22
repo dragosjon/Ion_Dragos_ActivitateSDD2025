@@ -1,0 +1,5 @@
+1234 Ionescu_Gigel Raceala 23 3
+5678 Popescu_Elena Gripa 0.5 5
+9101 Vasilescu_Andrei Dureri_de_cap 12 4
+1123 Georgescu_Maria Dureri_de_spate 35 2
+1415 Dumitrescu_Alina Febra 2 1
