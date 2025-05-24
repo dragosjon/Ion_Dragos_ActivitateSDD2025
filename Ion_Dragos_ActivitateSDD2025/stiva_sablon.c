@@ -57,6 +57,8 @@ int pop(nodStiva** varf, produs* p) {
 
 }
 
+
+
 void afisareStiva(nodStiva* varf) {
 
 	nodStiva* temp = varf;
