@@ -143,6 +143,10 @@ void dezalocare(nodLs* cap) {
 
 
 int main() {
+
+	//cati bytes ocupa structura CursaAeriana
+	printf("CursaAeriana ocupa %zu bytes\n", sizeof(void*));
+
 	int n = 3;
 	nodLs* cap = NULL, * ultim = NULL;
 
