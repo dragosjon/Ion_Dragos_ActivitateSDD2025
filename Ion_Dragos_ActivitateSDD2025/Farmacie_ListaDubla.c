@@ -160,6 +160,9 @@ void dezalocare(nodLS* cap) {
 
 
 int main() {
+
+
+
 	int n = 3;
 	nodLS* cap = NULL, * ultim = NULL;
 
@@ -193,6 +196,7 @@ int main() {
 	traversareNod(capNou);
 	printf("\n");
 	//dezalocare lista noua
+
 	
 	dezalocare(cap);
 	
