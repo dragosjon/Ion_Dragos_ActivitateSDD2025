@@ -43,6 +43,12 @@
     <Filter Include="Source Files\%28Test2%29Arbore">
       <UniqueIdentifier>{9d677a8f-5748-40b7-a489-d913206b572e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\ExamInvatare">
+      <UniqueIdentifier>{69d053b0-77d6-431d-932a-fc8e4c318808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ExamInvatare\Masive">
+      <UniqueIdentifier>{7a17d6f4-89e8-4d10-b449-bcf41eca8452}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Comanda%28listaDubla%29 - foarteBunExemplu.c">
@@ -225,6 +231,33 @@
     <ClCompile Include="coada_bilet2018.c">
       <Filter>Source Files\%28Test2%29Coada-Queue</Filter>
     </ClCompile>
+    <ClCompile Include="Arbore.c">
+      <Filter>Source Files\%28Test2%29Arbore</Filter>
+    </ClCompile>
+    <ClCompile Include="CoadaTestSablon.c">
+      <Filter>Source Files\%28Test2%29Coada-Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="DispozitivTest.c">
+      <Filter>Source Files\%28Test2%29Coada-Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="AVC_spectacol.c">
+      <Filter>Source Files\%28Test2%29Arbore</Filter>
+    </ClCompile>
+    <ClCompile Include="masiveUnidimensionale%28Vector%29.c">
+      <Filter>Source Files\ExamInvatare\Masive</Filter>
+    </ClCompile>
+    <ClCompile Include="masiveBidimensionale%28Matrice%29.c">
+      <Filter>Source Files\ExamInvatare\Masive</Filter>
+    </ClCompile>
+    <ClCompile Include="exercitiuExemplificare.c">
+      <Filter>Source Files\ExamInvatare</Filter>
+    </ClCompile>
+    <ClCompile Include="exeGril.c">
+      <Filter>Source Files\ExamInvatare</Filter>
+    </ClCompile>
+    <ClCompile Include="exempluVasilescu.c">
+      <Filter>Source Files\ExamInvatare</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="clienti.txt">
@@ -315,6 +348,12 @@
       <Filter>Source Files\txt</Filter>
     </Text>
     <Text Include="pacient.txt">
+      <Filter>Source Files\txt</Filter>
+    </Text>
+    <Text Include="filme.txt">
+      <Filter>Source Files\txt</Filter>
+    </Text>
+    <Text Include="spectacole.txt">
       <Filter>Source Files\txt</Filter>
     </Text>
   </ItemGroup>
